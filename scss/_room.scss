@@ -1,0 +1,27 @@
+.second-second{
+    @include flex-box();
+    padding-top:3rem;
+
+}
+.second-first{
+    width: 50%;
+    background-color: rgb(2, 2, 21);
+    padding: 4.5rem 0;
+    color: #fff;
+}
+.full{
+    padding:0  40px ;
+}
+.full h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.full p{
+    margin: 1rem 0;
+}
+.second-two{
+    width: 50%;
+}
+.full p{
+    font-size: 1rem;
+}

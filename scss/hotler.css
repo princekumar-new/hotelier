@@ -1,0 +1,559 @@
+body {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+span {
+  color: orange;
+}
+
+#my-navigation {
+  margin-bottom: 0;
+  padding: 20px 30px;
+}
+
+#logo ul li {
+  float: left;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.carousel-caption {
+  margin-bottom: 190px;
+}
+
+.carousel-caption h1 {
+  font-size: 4rem;
+  margin: 1.1rem 0;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+.button, .button1 {
+  padding: 1.2rem 2.5rem;
+  background-color: orange;
+  border: 0;
+  margin-top: 10px;
+}
+
+.button1 {
+  background-color: #fff;
+  color: black;
+  margin-left: 20px;
+}
+
+.first-last {
+  background-color: hsl(0, 0%, 100%);
+  padding: 40px 30px;
+  border: 1px solid gray;
+  position: relative;
+  bottom: 55px;
+}
+
+input {
+  padding: 10px 20px;
+}
+
+.submit {
+  background-color: orange;
+  border: 0;
+  padding: 10px 40px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.first-section {
+  width: 47%;
+}
+
+.first-section h6 {
+  font-size: 1.5rem;
+  color: orange;
+  font-weight: 800;
+}
+
+.first-section h2 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.first-section p {
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.box-1 {
+  border: 0.1rem solid gray;
+  width: 31%;
+  box-sizing: border-box;
+  padding: 0.8rem 0;
+}
+
+.box-1 h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.box-1 h5 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 100;
+  color: gray;
+}
+
+.second-section {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.second-section .img1 {
+  width: 48%;
+  margin-bottom: 1rem;
+}
+
+.second-section .img1 img {
+  width: 100%;
+}
+
+.img3 {
+  width: 33%;
+}
+
+.img3 img {
+  width: 10%;
+  height: 60%;
+}
+
+.newbtn {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color: orange;
+  border: 0;
+  color: #fff;
+}
+
+.second-second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.second-first {
+  width: 50%;
+  background-color: rgb(2, 2, 21);
+  padding: 4.5rem 0;
+  color: #fff;
+}
+
+.full {
+  padding: 0 40px;
+}
+
+.full h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.full p {
+  margin: 1rem 0;
+}
+
+.second-two {
+  width: 50%;
+}
+
+.full p {
+  font-size: 1rem;
+}
+
+.service {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+span {
+  color: orange;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  color: orange;
+  font-weight: 700;
+}
+
+.service h1 {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.services {
+  width: 100%;
+  background-color: rgb(243, 250, 248);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.new-room {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rooms h4 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.rooms p {
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+
+.rooms {
+  padding: 2rem 2rem;
+  background-color: #fff;
+  margin-top: 1rem;
+  width: 31%;
+}
+
+.rooms:hover {
+  background-color: orange;
+  color: #fff;
+  transition-duration: 50ms;
+}
+
+.upper {
+  text-align: center;
+}
+
+.upper h1 {
+  font-weight: 700;
+}
+
+.upper h3 {
+  font-size: 1.3rem;
+  color: orange;
+}
+
+.team {
+  width: 100%;
+  background-color: rgb(243, 250, 248);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.staffs {
+  width: 24%;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.staffs img {
+  width: 100%;
+}
+
+.staffs .icon {
+  position: relative;
+  bottom: 1.4rem;
+}
+
+.staffs span {
+  font-size: 1rem;
+  background-color: orange;
+  padding: 0.8rem;
+  color: #fff;
+  margin-left: 0.6rem;
+}
+
+.staffs h4 {
+  margin: 0.4rem 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.big {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 2rem 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  top: 5.8rem;
+  background-color: #fff;
+}
+
+.big-box {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.inpt {
+  padding: 1.4rem 1rem;
+  margin-top: 1rem;
+}
+
+.big-box h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: rgb(2, 2, 21);
+  color: #fff;
+}
+
+.foot {
+  padding-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.contact {
+  width: 25%;
+  background-color: orange;
+  padding: 1.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact p {
+  font-size: 1rem;
+}
+
+.location {
+  width: 24%;
+  margin-left: 3rem;
+}
+
+.twenty {
+  width: 22%;
+}
+
+.location h3 {
+  font-size: 1.7rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.location ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.location ul li a {
+  color: #fff;
+}
+
+.location span {
+  border: 1px solid #fff;
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  margin-left: 0.1rem;
+  border-radius: 100%;
+}
+
+.twenty h3 {
+  margin-top: 0;
+}
+
+.twenty ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7rem;
+}
+
+.twenty ul li a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/*footer ends here*/
+.last {
+  margin-top: 3rem;
+  border-top: 1px solid gray;
+}
+
+.last p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #mycarousel {
+    width: 100%;
+  }
+  .carousel-caption {
+    margin: 0;
+  }
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+  .carousel-caption h1 {
+    font-size: 2.3rem;
+    margin: 0;
+  }
+  .button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  .button1 {
+    padding: 10px 20px;
+  }
+  .first-last {
+    position: relative;
+    top: 30px;
+  }
+  .first-last input {
+    width: 100%;
+    margin-bottom: 0.7rem;
+  }
+  .first-section {
+    width: 100%;
+    text-align: center;
+    padding: 1.2rem 1rem;
+  }
+  .first-section h2 {
+    font-size: 2.4rem;
+  }
+  .second-section {
+    width: 100%;
+    padding: 1.2rem 1.3rem;
+  }
+  .second-first {
+    width: 100%;
+  }
+  .second-two {
+    width: 100%;
+  }
+  .rooms {
+    width: 100%;
+  }
+  .service h1 {
+    font-size: 2rem;
+  }
+  .services {
+    padding: 1rem 1rem;
+  }
+  .staffs {
+    width: 100%;
+  }
+  .staffs img {
+    width: 80%;
+  }
+  .upper {
+    text-align: center;
+  }
+  .contact, .locationn, .twenty {
+    width: 100%;
+    margin-bottom: 1.4rem;
+  }
+  .location {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .last p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+  #mycarousel {
+    width: 100;
+  }
+  .carousel-caption {
+    margin-bottom: 2rem;
+  }
+  .carousel-caption h1 {
+    font-size: 3rem;
+  }
+  .second-first {
+    width: 50%;
+  }
+  .second-first button {
+    padding: 0.6rem 1rem;
+  }
+  .second-two {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .second-section .img1 {
+    width: 49%;
+    margin-bottom: 0;
+  }
+  .second-section .img1 img {
+    width: 100%;
+    margin: 0;
+  }
+  .rooms {
+    width: 49%;
+  }
+  .staffs {
+    width: 48%;
+  }
+  .contact {
+    width: 49%;
+  }
+  .location {
+    width: 49%;
+    margin-left: 0;
+  }
+  .twenty {
+    width: 50%;
+  }
+  .last p {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=hotler.css.map */

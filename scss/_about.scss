@@ -1,0 +1,82 @@
+.about{
+    @include flex-box();
+    padding: 2rem 0;
+
+}
+
+.first-section{
+    width: 47%;
+
+}
+
+.first-section h6{
+    font-size: 1.5rem;
+    color: orange;
+    font-weight: 800;
+}
+
+.first-section h2{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.first-section p{
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+.boxes{
+    @include flex-box();
+    margin: 1rem 0;
+
+}
+.box-1{
+    border: 0.1rem solid gray;
+    width: 31%;
+    box-sizing: border-box;
+    padding: 0.8rem 0;
+}
+.box-1 h4{
+    text-align:center ;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.box-1 h5{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    color: gray;
+}
+
+
+.second-section{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.second-section .img1{
+  width: 48%;
+  margin-bottom: 1rem;
+}
+.second-section .img1 img{
+    width: 100%;
+}
+.img3{
+    width: 33%;
+}
+.img3 img{
+    width: 10%;
+    height: 60%;
+}
+
+.newbtn{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: orange;
+    border: 0;
+    color: #fff;
+}
+

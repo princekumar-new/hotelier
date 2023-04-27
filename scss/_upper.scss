@@ -1,0 +1,67 @@
+.upper{
+    text-align: center;
+  }
+  .upper h1{
+    font-weight: 700;
+  }
+  .upper h3{
+      font-size: 1.3rem;
+      color:orange;
+  }
+  .team{
+      width: 100%;
+      background-color: rgb(243, 250, 248);
+      @include flex-box();
+  
+  }
+  .staffs{
+      width: 24%;
+      text-align: center;
+      border: 1px solid #fff;
+      background-color: #fff;
+  
+  }
+  .staffs img{
+      width: 100%;
+  }
+  .staffs .icon{
+      position: relative;
+      bottom: 1.4rem;
+  }
+  .staffs span{
+      font-size: 1rem;
+      background-color: orange;
+      padding: 0.8rem;
+      color: #fff;
+      margin-left: 0.6rem;
+  }
+  
+  .staffs h4{
+      margin: 0.4rem 0;
+      font-size: 1.3rem;
+      font-weight: 700;
+  }
+  
+  
+  .big{
+      border: 1px solid gray;
+      text-align: center;
+      padding:2rem 3rem;
+      max-width: 900px;
+      margin: 0 auto;
+      position: relative;
+      top:5.8rem;
+      background-color: #fff;
+  }
+  .big-box{
+      max-width: 500px;
+      margin: 0 auto;
+  }
+  .inpt{
+      padding: 1.4rem 1rem;
+      margin-top: 1rem;
+  }
+  .big-box h3{
+      font-size: 2rem;
+      font-weight: 600;
+  }

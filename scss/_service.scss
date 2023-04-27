@@ -1,0 +1,47 @@
+.service {
+    text-align: center;
+    padding:4rem 0;
+}
+ span{
+    color: orange;
+}
+.service h3{
+    font-size: 1.5rem;
+    color: orange;
+    font-weight: 700;
+}
+.service h1{
+    margin-top: 0;
+    font-weight: 700;
+}
+.services{
+    width: 100%;
+    background-color: rgb(243, 250, 248);
+    @include flex-box();
+
+}
+.new-room{
+    @include flex-box();
+
+}
+.rooms h4{
+    font-size: 19px;
+    font-weight: 700;
+}
+.rooms p{
+    font-size: 1rem;
+    margin-top: 1.2rem;
+}
+ .rooms{
+    padding: 2rem 2rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    width: 31%;
+
+
+}
+.rooms:hover{
+    background-color: orange;
+    color: #fff;
+    transition-duration: 50ms;
+}

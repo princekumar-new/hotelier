@@ -1,0 +1,85 @@
+.footer{
+    background-color: rgb(2, 2, 21);
+    color: #fff;
+}
+
+.foot{
+    padding-top: 8rem;
+    @include flex-box();
+    box-sizing: border-box;
+
+}
+
+.contact{
+    width: 25%;
+    background-color: orange;
+    padding: 1.4rem;
+    @include flex-box();
+
+}
+.contact h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.contact p{
+    font-size: 1rem;
+
+}
+.location{
+    width: 24%;
+   margin-left: 3rem;
+}
+
+.twenty{
+    width: 22%;
+}
+.location h3{
+    font-size: 1.7rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.location ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.location ul li a{
+    color: #fff;
+}
+.location span{
+    border: 1px solid #fff;
+    font-size: 1.5rem;
+    padding:0.7rem;
+    margin-left:0.1rem;
+    border-radius: 100%;
+}
+
+.twenty h3{
+    margin-top: 0;
+}
+.twenty ul{
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7rem;
+}
+.twenty ul li a{
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+
+
+/*footer ends here*/
+
+.last{
+  margin-top: 3rem;
+  border-top:1px solid gray;
+
+}
+.last p{
+
+    font-size: 1.3rem;
+    text-align: center;
+}

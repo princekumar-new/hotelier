@@ -1,0 +1,181 @@
+body{
+    box-sizing: border-box;
+}
+@mixin flex-box(){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+html{
+    font-size:16px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+span{
+    color: orange;
+}
+
+
+
+
+
+
+@import "_header";
+
+
+@import "_about";
+
+@import "_room";
+
+@import "_service";
+
+@import "_upper";
+
+@import "_contactus";
+
+
+
+
+@media only screen and (max-width:768px){
+    #mycarousel{
+        width: 100%;
+    }
+    .carousel-caption {
+        margin: 0;
+    }
+    .carousel-caption p{
+        font-size: 1.2rem;
+    }
+    .carousel-caption h1{
+        font-size: 2.3rem;
+        margin: 0;
+    }
+    .button{
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    .button1{
+        padding: 10px 20px;
+    }
+    
+    .first-last{
+        position: relative;
+        top: 30px;
+    }
+    .first-last input{
+        width: 100%;
+        margin-bottom: 0.7rem;
+    }
+
+    .first-section {
+        width: 100%;
+        text-align: center;
+        padding: 1.2rem 1rem;
+    }
+    .first-section h2{
+        font-size: 2.4rem;
+    }
+    .second-section {
+        width: 100%;
+        padding: 1.2rem 1.3rem;
+    }
+    .second-first {
+        width: 100%;
+    }
+    .second-two {
+        width: 100%;
+    }
+
+
+    .rooms{
+        width: 100%;
+    }
+    .service h1{
+        font-size: 2rem;
+    }
+    .services{
+        padding: 1rem 1rem;
+    }
+    .staffs{
+        width: 100%;
+    }
+    .staffs img{
+        width: 80%;
+    }
+    .upper {
+        text-align: center;
+    }
+
+
+    .contact, .locationn , .twenty{
+        width: 100%;
+        margin-bottom: 1.4rem;
+    }
+    
+    .location{
+        width: 100%;
+     margin-left: 0;
+     margin-bottom: 2rem
+    }
+    .last p{
+        font-size:1rem;
+    }
+    
+}
+@media only screen and (min-width:769px) and (max-width:1000px){
+    #mycarousel{
+        width: 100;
+    }
+    .carousel-caption{
+        margin-bottom: 2rem;
+    }
+    .carousel-caption h1{
+        font-size: 3rem;
+    }
+    .second-first{
+        width: 50%;
+    }
+    .second-first button{
+        padding: 0.6rem 1rem;
+    }
+    .second-two{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .second-section .img1{
+        width: 49%;
+        margin-bottom: 0;
+    }
+    .second-section .img1 img{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .rooms{
+        width: 49%;
+
+    }
+    .staffs {
+        width: 48%;
+    }
+    .contact {
+        width: 49%;
+    }
+    .location{
+        width: 49%;
+        margin-left: 0;
+    }
+    .twenty{
+        width: 50%;
+    }
+    .last p{
+        font-size: 1.2rem;
+    }
+}
